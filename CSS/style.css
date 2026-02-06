@@ -612,6 +612,10 @@ section{
         padding-bottom: 1rem;
     }
 
+    .btn-service-link{
+        padding: 4rem 0;
+    }
+
     .header {
         padding: 0 5rem;
     }
@@ -654,6 +658,7 @@ section{
         padding-bottom: 1rem;
     }
 
+    
     .header {
         padding: 0 1rem;
         flex-direction: column;
