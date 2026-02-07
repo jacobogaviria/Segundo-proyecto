@@ -390,7 +390,52 @@ section{
 
 /* ===== CARDS ===== */
 
+.process-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    width: 50%;
+    border-left: var(--border_solid) var(--hover_border);
+    border-right: var(--border_solid) var(--hover_border);
+}
 
+.descripcion-card{
+    display: flex;
+    align-items: center;
+    height: auto;
+    gap: 3rem;
+}
+
+.sub-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color1);
+    width: 100%;
+    border-bottom: var(--border_solid) var(--hover_border);
+    padding: 0 2rem;
+
+}
+
+.process-descripcion{
+    color: var(--color_text_secondary);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    position: relative;
+}
+    
+
+.process-number{
+    color: var(--main_btn_color);
+    font-size: 136px;
+}
+
+.process-container{
+    display: flex;
+    
+    
+}
 .service_card{
     padding: 1rem 2rem;
     border: var(--border_solid) var(--hover_border);
