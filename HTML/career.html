@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>SquareUp</title>
+</head>
+    <body>
+        
+        <!-- Header Principal -->
+        <header class="header">
+            <div class="logo">
+                <img class="logo-img" src="../IMG/Logo.svg" alt="Logo Empresa" />
+                <h1>SquareUp</h1>
+            </div>
+
+            <button class="hamburger" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main_nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="servicios.html" class="nav-link">Services</a></li>
+                    <li><a href="work.html" class="nav-link">Work</a></li>
+                    <li><a href="process.html" class="nav-link">Process</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="career.html" class="nav-link">Careers</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn btn-primary">Contact Us</button>
+        </header>
+
+
+
+        <main class="general_main">
+            <header id="services_section_home" class="section-header">
+                    <h2>Join Our Team at SquareUp</h2>
+                    <p>
+                        Unlock your potential and join our team of innovators and problem solvers.
+                    </p>
+            </header>
+
+            <section class="process-container">
+
+                    <div class="process-card">
+                        <div class="descripcion-card">
+
+                            
+                            <p class="about-title">Design</p>
+
+                        </div>
+                        <p class="process-descripcion">Once upon a time, in a world driven by technology, a group of talented designers came together with a shared vision. They believed that design could shape the way people interacted with digital products. With their passion for aesthetics and usability, they founded SquareUp Digital Product Agency's design department. Their mission was to create visually stunning and user-friendly interfaces that would leave a lasting impression.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <div class="descripcion-card">
+
+                            
+                            <p class="about-title">Engineering</p>
+
+                        </div>
+                        <p class="process-descripcion">Meanwhile, a team of brilliant engineers was busy crafting the backbone of digital innovation. With their expertise in coding and development, they founded the engineering division of SquareUp. They believed that technology had the power to transform ideas into reality. Their mission was to build robust, scalable, and cutting-edge digital solutions that would push the boundaries of what was possible.</p>
+                    </div>
+
+                </section>
+
+                <section class="process-container">
+
+                    <div class="process-card">
+                        <div class="descripcion-card">
+
+                            <p class="about-title">Project Management</p>
+
+                        </div>
+                        <p class="process-descripcion">In the midst of the creative and technical minds, a group of project managers emerged as the glue that held everything together. They understood the importance of effective communication, organization, and efficient execution. With their skills in planning and coordination, they founded SquareUp's project management team. Their mission was to ensure that every project ran smoothly, on time, and within budget.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <div class="descripcion-card">
+
+                            
+                            <p class="about-title">Collaboration</p>
+
+                        </div>
+                        <p class="process-descripcion">At SquareUp, these three departments came together to form a cohesive and collaborative unit. They embraced the power of collaboration and recognized that their combined expertise would result in truly exceptional digital products. They believed that by working closely with their clients, understanding their needs, and involving them in the creative process, they could deliver solutions that surpassed expectations.</p>
+                    </div>
+
+                </section>
+
+            
+            <header class="service_header_section">
+            
+                    <h1>Welcome to SquareUp, where talent meets opportunity!</h1>
+                    <p>At SquareUp, we believe that the success of our agency lies in the talent, passion, and dedication of our team members. We are a digital product agency that thrives on innovation, creativity, and collaboration. If you're ready to make a difference and contribute to cutting-edge projects, we invite you to explore career opportunities with us. </p>
+                    <button class="btn btn-link btn-service-link">Why Work at SquareUp?</button>
+            
+            </header>
+
+
+            <footer class="section-header">
+                    <img src="../IMG/Logo.svg" alt="">
+                    <h2>Thank you for your Interest in SquareUp.</h2>
+                    <p>
+                        We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.
+                    </p>
+                    <button class="btn btn-primary">Start Project</button>
+                </footer>
+        </main>
+        
+            
+
+           
+            
+
+                
+    <script>
+        const hamburger = document.getElementById('hamburger-menu');
+        const nav = document.querySelector('.main_nav');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                nav.classList.remove('active');
+            });
+        });
+    </script>
+    </body>
+    
+</html>
