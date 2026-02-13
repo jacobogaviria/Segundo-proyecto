@@ -254,12 +254,17 @@ a{
     height: 80%;
 }
 
-.about-title{
+.about-title, .career-title{
     font-size: 3rem;
     font-weight: 600;
     color: var(--main_btn_color);
     border-bottom: 4px solid var(--hover_border);
     padding: 0 2rem;
+}
+
+.career-title{
+    font-size: 2rem;
+    padding: 0 1rem;
 }
     
 
@@ -379,6 +384,7 @@ section{
 }
 
 
+
 .services_container{
     display: flex;
     flex-wrap: wrap;
@@ -390,7 +396,17 @@ section{
     font-size: 16px;
     padding-right: 1rem;
 }
+.career_container{
+    display: flex;
+    flex-wrap: wrap;
+    ;
+}
 
+.career_container p{
+    text-align: left;
+    font-size: 16px;
+    padding-right: 1rem;
+}
 
 
 
@@ -493,6 +509,11 @@ section{
     display: flex;
     
     
+}
+.career_card{
+    padding: 1rem 2rem;
+    border: var(--border_solid) var(--hover_border);
+    width: 33%;
 }
 .service_card{
     padding: 1rem 2rem;
